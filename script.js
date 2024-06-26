@@ -27,4 +27,3 @@ function getInputValue() {
         resultPrint.innerHTML = `Your BMI is ${bmi.toFixed(2)}.`;
     }
 }
-
