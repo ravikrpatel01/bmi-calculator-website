@@ -127,7 +127,7 @@ nav a[aria-current='page'] {
   margin-top: 20px;
   margin-left: 0;
 }
-.result-div .p1 {
+.result-div #p1 {
   font-size: 20px;
   font-weight: 700;
 }
