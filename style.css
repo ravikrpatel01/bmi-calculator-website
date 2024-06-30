@@ -39,9 +39,6 @@ nav a[aria-current='page'] {
   margin-top: 5px;
   display: flex;
   justify-content: center;
-  border-radius: 5px;
-  border-right: 1.5px solid #444444;
-  border-bottom: 1.5px solid #444444;
 }
 .main-container{
   min-width: 500px;
