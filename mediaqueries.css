@@ -1,0 +1,20 @@
+body{
+    background-color: aliceblue;
+}
+
+@media (min-width: 320px) {
+    body {
+        /* background-color: lightgreen; */
+    }
+    nav{
+        /* background-color: aqua; */
+        width: 630px;
+        margin-bottom: 20px;
+    }
+
+    .container{
+        margin-top: 20px;
+        width: 630px;
+        margin-left: 8px;
+    }
+}
