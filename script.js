@@ -1,8 +1,7 @@
 function getInputValue() {
     let resultPrint = document.getElementById('result');
-    let resultString = document.getElementById('p1');
 
-    resultString.style.display = 'block';
+    document.getElementById('result-text').style.display = 'inline';
 
     let heightInCM = document.getElementById('height').value;
     let weightInKG = document.getElementById('weight').value;
@@ -11,8 +10,9 @@ function getInputValue() {
         resultPrint.style.color = 'red';
         resultPrint.style.fontWeight = 600;
         resultPrint.style.fontSize = '18px';
+        console.log('Hii');
         resultPrint.innerHTML = 'Please ENTER your Height and Weight!';
-        resultString.style.display = 'none';
+        document.getElementById('result-text').style.display = 'none';
     }else{
         let heightInMeter = heightInCM / 100;
 
@@ -23,7 +23,7 @@ function getInputValue() {
         resultPrint.style.color = 'black';
         resultPrint.style.fontWeight = 100;
         resultPrint.style.fontSize = '17px';
-        
+
         resultPrint.innerHTML = `Your BMI is ${bmi.toFixed(2)}.`;
     }
 }
